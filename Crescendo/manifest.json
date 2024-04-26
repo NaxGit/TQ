@@ -2,12 +2,12 @@
 "name": "⊤⌕",
 "short_name": "⊤⌕",
 "description": "My Shop App",
-"start_url": "/",
+"start_url": "/TQ/",
 "display": "standalone",
 "background_color": "#035F6B",
 "theme_color": "#035F6B",
 "orientation": "portrait",
-"scope": "/",
+"scope": "/TQ/",
 "prefer_related_applications": false,
 
 "icons":
