@@ -4,38 +4,38 @@ const Dynamic = 'Flow-V44';
 const ToKache =
 [
 
-'/',
-'/index.html',
+'./',
+'./index.html',
 
-'/serviceDeploy.js',
+'./serviceDeploy.js',
 
-'/Crescendo/alphaicon.ico',
-'/Crescendo/mainstyle.css',
-'/Crescendo/manifest.json',
-'/Crescendo/Ubuntu-UI.ttf',
+'./Crescendo/alphaicon.ico',
+'./Crescendo/mainstyle.css',
+'./Crescendo/manifest.json',
+'./Crescendo/Ubuntu-UI.ttf',
 
-'/Diminuendo/Alphadexie.js',
-'/Diminuendo/Initialize.js',
-'/Diminuendo/Kythirapin.js',
+'./Diminuendo/Alphadexie.js',
+'./Diminuendo/Initialize.js',
+'./Diminuendo/Kythirapin.js',
 
-'/Diminuendo/zoneindex.js',
-'/Diminuendo/zonelogue.js',
+'./Diminuendo/zoneindex.js',
+'./Diminuendo/zonelogue.js',
 
-'/files/zero.png',
+'./files/zero.png',
 
-'/svga/a_store.png',
-'/svga/b_coins.png',
-'/svga/c_stock.png',
-'/svga/d_repos.png',
-'/svga/e_catal.png',
-'/svga/f_newit.png',
-'/svga/g_views.png',
-'/svga/h_shift.png',
+'./svga/a_store.png',
+'./svga/b_coins.png',
+'./svga/c_stock.png',
+'./svga/d_repos.png',
+'./svga/e_catal.png',
+'./svga/f_newit.png',
+'./svga/g_views.png',
+'./svga/h_shift.png',
 
-'/svga/1_comet.png',
-'/svga/2_comet.png',
-'/svga/3_comet.png',
-'/svga/4_comet.png'
+'./svga/1_comet.png',
+'./svga/2_comet.png',
+'./svga/3_comet.png',
+'./svga/4_comet.png'
 
 ];
 
