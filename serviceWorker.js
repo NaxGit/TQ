@@ -3,7 +3,7 @@ const Dynamic = 'Flow-Vone';
 
 const ToKache =
 [
-
+'./',
 './index.html',
 
 './Crescendo/alphaicon.ico',
