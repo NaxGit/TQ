@@ -1,5 +1,5 @@
-const Kartier = 'Stat-V0';
-const Dynamic = 'Flow-V0';
+const Kartier = 'Stat-V1';
+const Dynamic = 'Flow-V1';
 
 const ToKache =
 [
