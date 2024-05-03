@@ -52,8 +52,9 @@ document.getElementById("sm-a").onclick = function () {
 
 document.getElementById("sm-b").onclick = function () {
     location.href = "./R_Sales.html";
+	console.log('Go Sales');
 };
-
+console.log('IS Okay');
 document.getElementById("sm-e").onclick = function () {
     location.href = "./logue.html";
 };
