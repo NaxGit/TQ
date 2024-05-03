@@ -1,0 +1,371 @@
+:root {
+	--PageBack: #FFFFFF;
+	--ThemeHEX: #035F6B;
+	--obergins: #77216F;
+	--textsHEX: #2F3336;
+	--textsRGB: rgba(47, 51, 54, 1);
+	--Borde: rgba(0, 0, 0, 0.175);
+	--theme: #20C997;
+	--texts: #303030;
+	--color: #DCDCDC;
+	--lines: #DEE2E6;
+	--navbar: #111111;
+	/* SliderNav BG */
+	--flowsc: #5f9ea0;
+	--search: #DEE2E6;
+	/* Search border */
+	--comets: #383838;
+	/* Comets border */
+}
+
+.kk2 {
+	color: #252942;
+	background: #2A3057;
+}	
+
+@font-face {
+	font-family: NativeUL;
+	src: url(./Ubuntu-UI.ttf);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'NativeUL';
+}
+
+a,
+h1,
+h2,
+input,
+button {
+	all: unset;
+}
+
+dialog {
+	margin: auto;
+	border-radius: 0.375rem;
+	border: none !important;
+	outline: none !important;
+	box-shadow: none !important;
+}
+
+dialog::backdrop {
+	background-color: rgba(3, 95, 107, 0.25);
+}
+
+dialog.hide {
+	animation: hide 0.6s ease normal;
+}
+
+@keyframes hide {
+	to {
+		transform: translateY(-100%);
+	}
+}
+
+.cloaking {
+	display: none;
+}
+
+#dial {
+	padding: 0.5rem;
+}
+
+#dial>img:nth-child(1) {
+	width: 60%;
+}
+
+#dial>div:nth-child(2) {
+	font-size: 1.6rem;
+}
+
+#dial>div:nth-child(3) {
+	font-size: 1.8rem;
+}
+
+
+#ScreenTap {
+	padding-top: 96px;
+}
+
+/* δ Delta components [Steptronic] */
+
+#boardDash {
+	top: 0;
+	width: 100%;
+	position: fixed;
+}
+
+#boardDash div {
+	display: grid;
+}
+
+#boardDash div div {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* deltaHead */
+
+#deltaHead {
+	height: 48px;
+	background: #035F6B;
+	grid-template-columns: 48px auto 48px;
+}
+
+#deltaHead div {
+	color: #DCDCDC;
+	font-size: 1.6rem;
+}
+
+/* slideMenu */
+
+#slideMenu {
+	background-color: #111111;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#slideMenu div {
+	padding: 25%;
+	color: #DCDCDC;
+	font-size: 1.2rem;
+	flex-direction: column;
+}
+
+#slideMenu img {
+	width: 100%;
+	height: auto;
+	margin-bottom: 0.5rem;
+	filter: invert(100%);
+}
+
+/* cometFlow */
+
+#cometFlow {
+	background-color: #5f9EA0;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#cometFlow div {
+	padding: 25%;
+	color: #383838;
+	font-size: 1.2rem;
+	flex-direction: column;
+}
+
+#cometFlow img {
+	width: 100%;
+	height: auto;
+	margin-bottom: 0.5rem;
+}
+
+/* blockFind */
+
+#blockFind {
+	padding: 0px 48px;
+	grid-template-columns: auto 48px;
+    position: relative;
+	width: 100%;
+	overflow: hidden;
+	background: #FFFFFF;
+}
+
+#shadowdiv {
+	border-radius: 50%;
+	box-shadow: 0px 0.25rem 0.25rem rgba(0, 0, 0, 0.3);
+	/* first value is the  offset */
+	/* second value is the vertical offset, */
+    /* third value is the blur radius */
+
+    position: absolute;
+	width: 100%;
+	height: 10px;
+    top: -10px; /* adjust as needed */
+}
+
+
+#searchbar {
+	all: unset;
+	height: 30px;
+	color: #2F3336;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	font-size: 0.8em;
+	margin: 12px 0px 0px 0px;
+	border: 3px solid #DEE2E6;
+	border-radius: 0.375rem 0px 0px 0.375rem;
+}
+
+#cometsbtn {
+	all: unset;
+	height: 30px;
+	color: #2F3336;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	font-size: 0.8em;
+	margin: 12px 0px 0px 0px;
+	border: 3px solid #383838;
+	border-radius: 0px 0.375rem 0.375rem 0px;
+}
+
+/* SlideStuff */
+
+.colapsed {
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 1.2s;
+}
+
+.expanded {
+	max-height: 480px;
+}
+
+/* Sales PAGE */
+.salesicon
+{
+display: grid;
+gap: 0.5rem;
+padding: 0.5rem;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.salesicon * img
+{
+width: 100%;
+border-radius: 0.375rem;
+border: 1px solid rgba(0, 0, 0, 0.175);
+box-shadow: 0rem 0.25rem 0.25rem 0.0rem rgba(0, 0, 0, 0.1);
+/* background: radial-gradient(circle at right center, rgba(0, 0, 0, 0.1) 1rem, rgba(0, 0, 0, 0.0)); */
+/* margin: 0.0rem 0.5rem 0.5rem 0.5rem; */
+}
+
+.salesicon > div > div {
+text-align	: center;
+font-size	: 2vw;
+overflow	: hidden;
+margin		: 0px auto;
+white-space	: nowrap;
+max-width	: calc(100vw / 4 - 1rem);
+}
+
+/* Catalogue PAGE */
+.catalogue {
+padding: 0px;
+}
+.catalogue div {
+display: grid;
+border-radius: 0.375rem;
+grid-template-columns: 1fr 3fr;
+margin: 0.5rem 0.5rem 0.0rem 0.5rem;
+border: 1px solid rgba(0, 0, 0, 0.175);
+box-shadow: 0rem 0.1rem 0.2rem 0.1rem rgba(0, 0, 0, 0.1);
+background: linear-gradient(to right, #FFFFFF, #FFFFFF 30%, #E6E6E6);
+}
+.catalogue img {
+width: 100%;
+height: auto;
+grid-row: 1 / 4;
+border-top-left-radius: 0.375rem;
+border-bottom-left-radius: 0.375rem;
+}
+.catalogue h1 {
+font-size: 1.2rem;
+padding-top: 0.5rem;
+padding-left: 0.5rem;
+}
+.catalogue h2 {
+font-size: 1rem;
+height: 2ch;
+padding-top: 0rem;
+padding-left: 0rem;
+}
+.catalogue small {
+display: none;
+}
+.catalogue section {
+display: flex;
+flex-direction: column;
+margin: 0.0rem 0.5rem 0.0rem 0.5rem;
+}
+.catalogue input{
+box-sizing: border-box;
+width: 100%;
+font-size: 1.2rem;
+padding: 0.5rem;
+border-radius: 0.375rem;
+border: 1px solid rgba(0, 0, 0, 0.175);
+box-shadow: 0rem 0.1rem 0.2rem 0.1rem rgba(0, 0, 0, 0.1);
+}
+.catalogue input:focus {
+outline: none;
+background: #ccdfe1 !important;
+/* box-shadow: 0 0 10px rgba(3, 95, 107, 0.5); */
+}
+.catalogue button {
+width: 25%;
+font-size: 1.2rem;
+padding: 0.5rem;
+border-radius: 0.375rem;
+border: 1px solid rgba(0, 0, 0, 0.175);
+box-shadow: 0rem 0.1rem 0.2rem 0.1rem rgba(0, 0, 0, 0.1);
+background-color: #035F6B;
+text-align: center;
+font-weight: bold;
+color: #FFFFFF;
+margin-left: auto;
+margin-top: 0.5rem;
+margin-bottom: 0.5rem;
+}
+.catalogueHigh {background: linear-gradient(to right, #FFFFFF, #FFFFFF 30%, #ccdfe1) !important;}
+
+#cometTQapp{color: #20C997;}
+
+
+.fixed-bottom{
+	padding: 10px;
+}
+
+.tempBtn{
+
+	display: inline-block;
+	outline: 0;
+	border: 0;
+	cursor: pointer;
+	background-color: #20C997;
+	border-radius: 4px;
+	padding: 8px 16px;
+	font-size: 16px;
+	font-weight: 700;
+	color: white;
+	line-height: 26px;
+	margin: 5px;
+
+}
+
+
+/* REPORTS CSS */
+
+.r-sales {
+	font-size: 0.7rem;
+	margin-top: 12px;
+}
+
+.r-sales > div {
+	display: grid;
+	grid-template-columns: 20% auto 10%;
+}
+
+.r-sales > div > div {
+	padding: 3px;
+    color: var(--textsHEX);
+}
+
+.r-sales > div > div:nth-child(2) { /* Target the middle column */
+	
+  }
