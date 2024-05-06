@@ -52,6 +52,14 @@ dialog.addEventListener('click', (event) =>
     if (event.target.id === 'dialog') {dialog.close();}
     else
     {
+        let audio = document.getElementById("beep");
+        audio.play();
+        if ("vibrate" in navigator) {
+            // Vibrate for 500 milliseconds
+            navigator.vibrate(500);
+          } else {
+            alert("Vibration not supported in this browser.");
+          }        
         dialog.classList.add('hide');
         dialog.addEventListener('webkitAnimationEnd', function anime()
         {
