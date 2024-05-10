@@ -1,0 +1,41 @@
+{
+"name": "⊤⌕",
+"short_name": "⊤⌕",
+"description": "My Shop App",
+"start_url": "/TQ/",
+"display": "standalone",
+"background_color": "#035F6B",
+"theme_color": "#035F6B",
+"orientation": "portrait",
+"scope": "/TQ/",
+"prefer_related_applications": false,
+
+"icons":
+[
+    {
+        "src": "../svga/logo/192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "maskable"
+    },
+{
+"src": "../svga/logo/192.png",
+"type": "image/png",
+"sizes": "192x192"
+},
+{
+"src": "../svga/logo/512.png",
+"type": "image/png",
+"sizes": "512x512"
+}
+],
+
+"splash_pages":
+[
+{
+"src": "../svga/logo/512.png",
+"type": "image/png",
+"sizes": "512x512"
+}
+]
+}
