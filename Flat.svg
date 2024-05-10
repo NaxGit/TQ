@@ -1,0 +1,17 @@
+<svg
+	xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	id="flat"
+	viewBox="0 0 400 200"
+	shape-rendering="geometricPrecision"
+	text-rendering="geometricPrecision"
+>
+	<rect id="a" x="010" y="10" width="80" height="80" rx="10" ry="10" fill="blue" />
+	<rect id="b" x="110" y="10" width="80" height="80" rx="10" ry="10" fill="green" />
+	<rect id="c" x="210" y="10" width="80" height="80" rx="10" ry="10" fill="red" />
+	<rect id="d" x="310" y="10" width="80" height="80" rx="10" ry="10" fill="purple" />
+	<rect id="e" x="010" y="110" width="80" height="80" rx="10" ry="10" fill="yellow" />
+	<rect id="f" x="110" y="110" width="80" height="80" rx="10" ry="10" fill="orange" />
+	<rect id="g" x="210" y="110" width="80" height="80" rx="10" ry="10" fill="pink" />
+	<rect id="h" x="310" y="110" width="80" height="80" rx="10" ry="10" fill="teal" />
+</svg>
